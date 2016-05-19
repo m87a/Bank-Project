@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BankEmployee</class>
+ <widget class="QDialog" name="BankEmployee">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>776</width>
+    <height>391</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Add New Cardholder</string>
+      </attribute>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>11</y>
+         <width>38</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Name:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="geometry">
+        <rect>
+         <x>97</x>
+         <y>11</y>
+         <width>640</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_2">
+       <property name="geometry">
+        <rect>
+         <x>97</x>
+         <y>38</y>
+         <width>640</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>38</y>
+         <width>52</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Surname</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_3">
+       <property name="geometry">
+        <rect>
+         <x>97</x>
+         <y>65</y>
+         <width>640</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>65</y>
+         <width>28</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>SSID</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_4">
+       <property name="geometry">
+        <rect>
+         <x>97</x>
+         <y>92</y>
+         <width>640</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>92</y>
+         <width>29</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>DOB:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_5">
+       <property name="geometry">
+        <rect>
+         <x>97</x>
+         <y>119</y>
+         <width>640</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>119</y>
+         <width>55</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Address: </string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_6">
+       <property name="geometry">
+        <rect>
+         <x>97</x>
+         <y>146</y>
+         <width>640</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>146</y>
+         <width>26</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>City:</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButton">
+       <property name="geometry">
+        <rect>
+         <x>97</x>
+         <y>281</y>
+         <width>94</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Golden Visa</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButton_2">
+       <property name="geometry">
+        <rect>
+         <x>97</x>
+         <y>227</y>
+         <width>151</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>MasterCard Revolving</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButton_3">
+       <property name="geometry">
+        <rect>
+         <x>97</x>
+         <y>254</y>
+         <width>109</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Visa Revolving</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButton_4">
+       <property name="geometry">
+        <rect>
+         <x>97</x>
+         <y>200</y>
+         <width>94</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Visa Classic</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>200</y>
+         <width>79</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Type of Card:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>173</y>
+         <width>45</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Salary: </string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_7">
+       <property name="geometry">
+        <rect>
+         <x>97</x>
+         <y>173</y>
+         <width>640</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton">
+       <property name="geometry">
+        <rect>
+         <x>596</x>
+         <y>297</y>
+         <width>141</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Add new Cardholder</string>
+       </property>
+      </widget>
+      <zorder>label</zorder>
+      <zorder>lineEdit</zorder>
+      <zorder>label_4</zorder>
+      <zorder></zorder>
+      <zorder></zorder>
+      <zorder>lineEdit_4</zorder>
+      <zorder>lineEdit_2</zorder>
+      <zorder>label_4</zorder>
+      <zorder>label</zorder>
+      <zorder>lineEdit_2</zorder>
+      <zorder>label</zorder>
+      <zorder>lineEdit</zorder>
+      <zorder>lineEdit_2</zorder>
+      <zorder>label_2</zorder>
+      <zorder>lineEdit_3</zorder>
+      <zorder>label_3</zorder>
+      <zorder>lineEdit_4</zorder>
+      <zorder>label_4</zorder>
+      <zorder>lineEdit_5</zorder>
+      <zorder>label_5</zorder>
+      <zorder>lineEdit_6</zorder>
+      <zorder>label_6</zorder>
+      <zorder>radioButton</zorder>
+      <zorder>radioButton_2</zorder>
+      <zorder>radioButton_3</zorder>
+      <zorder>radioButton_4</zorder>
+      <zorder>label_7</zorder>
+      <zorder>label_8</zorder>
+      <zorder>lineEdit_7</zorder>
+      <zorder>pushButton</zorder>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Withdraw</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="tab_3">
+      <attribute name="title">
+       <string>Deposit</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="tab_5">
+      <attribute name="title">
+       <string>Transfer</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="tab_4">
+      <attribute name="title">
+       <string>Loan</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="tab_6">
+      <attribute name="title">
+       <string>ATM </string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="tab_7">
+      <attribute name="title">
+       <string>Converter</string>
+      </attribute>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
